@@ -110,9 +110,9 @@ def play(board)
  until over?(board)
    turn(board)
  end
- if over?(board) && draw?(board) #if over and full but no winner
+ if over?(board) && full?(board) && draw?(board) #if over and full but no winner
    puts "Cat's Game!"
- elsif over?(board) && winner(board) #if over and full with winner
+ elsif over?(board) && full?(board) && winner(board) #if over and full with winner
    puts "Congratulations Winner #{winner(board)}!"
  end
 end
