@@ -9,8 +9,6 @@
 # congratulate winner if winner
 # inform of tie if tie
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
 WIN_COMBINATIONS = [
   [0,1,2], #top-row win
   [3,4,5], #mid-row win
